@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section id="calculator">
+        <input id = 'display' readOnly>
+    <div>
+        <button class="oper" onclick="appendInput('+')">+</button>
+        <button onclick="appendInput('1')">1</button>
+        <button onclick="appendInput('3')">2</button>
+        <button onclick="appendInput('3')">3</button>
+    </div>
+<div>
+    <button class="oper" onclick="appendInput('-')">-</button>
+        <button onclick="appendInput('4')">4</button>
+        <button onclick="appendInput('5')">5</button>
+        <button onclick="appendInput('6')">6</button>
+</div>
+<div>
+    <button class="oper" onclick="appendInput('*')">*</button>
+        <button onclick="appendInput('7')">7</button>
+        <button onclick="appendInput('8')">8</button>
+        <button onclick="appendInput('9')">9</button>
+        <button onclick="appendInput('0')">0</button>
+</div>
+<div>
+        <button>.</button>
+        <button class="clear" onclick="clearBtn()">C</button>
+        <button class="oper" onclick="appendInput('=')">=</button>
+        <button class="oper" onclick="appendInput('/')">/</button>
+    </div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>
